@@ -1,221 +1,436 @@
-<!DOCTYPE html>
-<html lang="en">
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  font-family: 'Josefin Sans', sans-serif;
+}
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Sourav's Portfolio </title>
-  <link rel="stylesheet" href="style02.css">
-  <link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet">
-</head>
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
 
-<body>
-  <div id="main">
-    <div id="page">
-      <div id="nav">
+#main {
+  position: relative;
+  overflow: hidden;
+}
 
-        <div id="center-nav">
-          <a href="#">Home</a>
-          <a href="#">About</a>
-          <a href="#">Skills</a>
-          <a href="#">Education</a>
-          <!--<a href="#">Experience</a>-->
-          <a href="#">Projects</a>
-          <a href="#">Contact</a>
+#page {
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+  background-color: whitesmoke;
+}
 
+#page>img {
+  position: absolute;
+  right: 15%;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 30%;
+}
 
-        </div>
-        <input type="text" placeholder="search">
-      </div>
-      <img src="with_kurta.jpg" alt="">
-      <div id="text">
+#page>#nav {
+  display: flex;
+  align-items: center;
 
-        <!--   <h5>Hello!</h5>   -->
-        <h1>  Hello<br> Myself Sourav</h1>
-        <h2> <br>I am a passionate<br> 'Web Developr', 'Graphic Designer', 'Video Editor'</h2>
-
-        <div id="buttons">
-          <button id="b1">Let's talk <i class="ri-telegram-line"></i></button>
-          <button id="b2">Portfolio <i class="ri-arrow-right-up-line"></i></button>
-        </div>
-
-      </div>
-    </div>
-
-
-
-    <div id="page1">
-      <img src="b540e07f32b71b8fdea9aa4b2860058c4.png" alt="">
-      <div id="right">
-        <div id="text1">
-          <h5>About Section</h5>
-          <h1>About</h1>
-        </div>
-      </div>
-      <div id="left">
-        <div class="box">
-          <link rel="preconnect" href="https://fonts.googleapis.com">
-          <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-          <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400&display=swap" rel="stylesheet">
-          <h1>Hello! I'm Sourav,a passionate ECE undergraduate student with a zest for exploring the world of technology
-            and creativity. I thrive on challenges and consider myself a problem solver at heart. My interests span a
-            wide spectrum, from web development and graphic design to programming, video editing, and even full-stack
-            engineering.<br>
-
-            When I'm not busy coding or designing, you can find me with a camera in hand, capturing the beauty of the
-            world through photography. I also have a deep fascination with robotics, constantly tinkering with new ideas
-            and projects.
-            <br>
-            My goal is to combine my technical skills, creativity, and problem-solving abilities to create innovative
-            solutions and make a meaningful impact on the world. Let's connect and explore the exciting possibilities
-            together!.
-          </h1>
-          <div class="circle"><i class="ri-arrow-right-up-line"></i></div>
-
-        </div>
-      </div>
-    </div>
+  padding: 0px 30px;
+  position: absolute;
+  z-index: 9;
+  height: 8%;
+  width: 100%;
+  /*background-color: rgb(255, 255, 196);*/
+  background-color: #fcda69;
+  justify-content: space-around;
 
 
 
 
+}
 
-    <div id="page2">
-      <div id="right02">
+#nav>img {
+  position: absolute;
+  width: 11%;
+  height: 4%;
+}
 
-        <div id="text2">
-          <h5>Skills Section</h5>
-          <h1>Skills</h1>
-        </div>
-      </div>
-      <div id="left02">
-        <div id="right001">
-          <div id="text011">
+#center-nav {
+  right: 50%;
+  display: flex;
+  gap: 20px;
+}
 
-            <h3>01/</h3>
-            <h1>Front-end App Development-</h1>
-            <h2>HTML<br>CSS<br>JavaScript<br>React</h2><br>
+#center-nav>a {
+  text-decoration: none;
+  color: #000;
+  font-weight: 500;
+  font-size: 20px;
+}
 
-            <h3>02/</h3>
-            <h1>Competitive Coding-</h1>
-            <h2>I have actively participated in multiple Competitive coding events, organised by HackerRank, CodeChef,
-              GeeksForGeeks and much more.</h2><br>
+#nav>input {
+  padding: 10px 5px;
+  border-radius: 10px;
+  border: none;
+  text-transform: uppercase;
+}
 
-            <h3>03/</h3>
-            <h1>Back-end App Development-</h1>
-            <h2>I have started with App Dev just a couple months ago. I mostly work on the front-end but I am going to
-              learn back-end as well very soon.</h2><br>
+#text {
+  padding: 30px 50px;
+  position: relative;
+  top: 30%;
+  left: 12%;
+  height: 75%;
+  width: 35%;
+  /*background-color: whitesmoke;*/
+}
 
-            <h3>04/</h3>
-            <h1>Embedded-Softwares-</h1>
-            <h2>Proteus(IOT)<br>Arduino</h2><br>
+#text>h1 {
+  font-size: 60px;
+  line-height: 1;
+}
 
-            <h3>05/</h3>
-            <h1>Photography and Graphic Editing-</h1>
-            <h2>I love to click photographs and graphic designing. My most used softwares include Adobe Photoshop,
-              Snapseed and Lightroom. Although, my favourite way to spend time is by listening to music.</h2><br>
+#text>h4 {
 
-            <h3>06/</h3>
-            <h1>Bachelor of Fine Arts-</h1>
-            <h2>I completed my Bachelor of Fine Arts from Anka Shekha School Alipurduar,My time at Anka Shekhar School
-              for my Bachelor of Fine Arts was transformative. The dedicated faculty and immersive curriculum enriched
-              my creative skills and broadened my artistic horizons. It provided the foundation for my fulfilling career
-              in fine arts. </h2><br>
+  margin-top: 20px;
+  color: #2d2d2d;
+  font-size: 20px;
+  font-weight: 700;
+}
 
+/*#text>h5{
+  color: #8873EF;
+  transform: rotate(-20deg);
+  position: absolute;
+  left: 3%;
+}*/
+#buttons {
+  position: absolute;
+  height: 20%;
+  left: 8%;
+  width: 100%;
+  bottom: 18%;
+  /*background-color: rgb(38, 167, 49);*/
+}
 
-          </div>
-        </div>
-        <div id="left001"></div>
+#buttons>button {
+  padding: 12px 24px;
+  border-radius: 12px;
+  border: none;
+  font-weight: 700;
+}
 
-      </div>
-    </div>
+#buttons>button>i {
+  font-size: 20px;
+}
 
+#buttons>#b1 {
+  margin-left: 25px;
+  background-color: #8873EF;
+}
 
-    <div id="page3">
-
-
-      <div id="right03">
-
-        <div id="text3">
-          <h5>Education Section</h5>
-          <h1>Education</h1>
-        </div>
-      </div>
-      <div id="left03">
-        <div id="right003">
-          <div id="text0113">
-
-            <h3>01/</h3>
-            <h1>Falakata High school (West Bengal Council of Secondary Education)</h1>
-            <h2>High School Diploma,
-              Jan 2014 - Nov 2020 <br>Grade:WBBSE-90%</h2><br>
-
-            <h3>02/</h3>
-            <h1> High school (West Bengal Council of Higher Secondary Education)</h1>
-            <h2>Science High School Diploma, Science
-              Dec 2020 - Apr 2022<br>
-              Grade: WBCHSE - 92%</h2><br>
-
-            <h3>03/</h3>
-            <h1>Techno Main - Salt Lake</h1>
-            <h2>Bachelor of Technology - BTech, Electronics and communication/Telecommunication engineering
-              Sep 2022 - Aug 2026</h2><br>
-
-            <h3>04/</h3>
-            <h1>Anka Shekha School (Alipurduar)</h1>
-            <h2>Bachelor of Fine Arts - BFA, Fine art
-              Feb 2014 - Oct 2021<br>
-              Grade: A+</h2><br>
-
-          </div>
-        </div>
-        <div id="left003"></div>
-
-      </div>
-    </div>
+#buttons>#b2 {
+  margin-left: 20px;
+}
 
 
-    <div id="page4">
-      <div id="project">
-        <div id="text99">
-          <h1>Latest<br>Project </h1>
+#page1 {
+  position: relative;
+  height: 50vh;
+  width: 100vw;
+  background-color: #fcda69;
+}
 
-        </div>
+#page1>#left {
+  position: absolute;
+  right: 5%;
+  height: 90%;
+  top: 5%;
+  transform: rotateY(-50%);
+  width: 45%;
 
-        <div class="projects p1">
-          <div id="ptext01">
-            <h1> <br>Rrc Autonomous<br>Autobots Robotics Workshop</h1>
-            <div class="circle"><i class="ri-arrow-right-up-line"></i></div>
-          </div>
-          <div id="image9"></div>
-        </div>
+  /*background-color: #c6e3e2;*/
+  /*background-color: #92e4af;*/
+}
 
-        <div class="projects p2">
-          <div id="ptext01">
-            <h1>  <br>Websit Hosting<br> &    Website Design</h1>
-            <div class="circle"><i class="ri-arrow-right-up-line"></i></div>
-          </div>
-          <div id="image10"></div>
-        </div>
+#left>.box {
+  position: absolute;
+  font-family: 'Josefin Sans', sans-serif;
+  top: 15%;
+  font-size: 10px;
+  height: 100%;
+  width: 100%;
+  /*background-color: #92e4af;*/
 
-        <div class="projects p3">
-          <div id="ptext01">
-            <h1> <br>Communication &<br>Presentation Skill</h1>
-            <div class="circle"><i class="ri-arrow-right-up-line"></i></div>
-          </div>
-          <div id="image11"></div>
-        </div>
+}
 
-        
+.circle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 50%;
+  height: 3vw;
+  width: 3vw;
+  background-color: #8873ef;
+  border-radius: 50%;
+}
 
-      </div>
-    </div>
+.circle>i {
+  color: whitesmoke;
+  font-size: 25px;
+
+}
+
+#text1 {
+  margin: 100px 50px;
+  height: 30%;
+  width: 30%;
+
+  position: absolute;
+  z-index: 2;
+}
+
+#text1>h1 {
+  font-size: 90px;
+  margin-left: 12%;
+  margin-top: 20px;
+}
+
+#text1>h5 {
+
+  color: #8873EF;
+  transform: rotate(-20deg);
+  position: absolute;
+  left: 5%;
+}
+
+#page1>img {
+  position: absolute;
+  bottom: 0.1%;
+  left: 2%;
+  width: 15%;
+}
+
+#page2 {
+  position: relative;
+  height: 48vw;
+  width: 100vw;
+  background-color: whitesmoke;
+}
+
+#page2>#left02 {
+  height: 100%;
+  width: 30%;
+  background-color: whitesmoke;
+
+}
+
+#text2>h1 {
+  font-size: 90px;
+  margin-left: 11%;
+  margin-top: 100px;
+}
+
+#text2>h5 {
+
+  color: #8873EF;
+  transform: rotate(-20deg);
+  position: absolute;
+  left: 8%;
+  margin-top: -1%;
+}
+
+#right001 {
 
 
-    <div id="page5"></div>
+  margin-left: 10%;
+  height: 100%;
+  width: 310%;
+
+}
+
+#text011 {
+  font-size: 12px;
+  margin-left: 6%;
+
+}
+
+#text011>h3 {
+  font-size: 25px;
+  margin-left: 1px;
+}
+
+#text011>h2 {
+  font-size: 20px;
+  margin-left: 2%;
+}
+
+#text011>h1 {
+  font-size: 28px;
+  margin-left: 2%;
+  margin-top: 8px;
+}
 
 
-  </div>
-</body>
+#page3 {
+  position: relative;
+  margin-top: 5%;
+  height: 40vw;
+  width: 100vw;
+  background-color: #fcda69;
+}
 
-</html>
+#page3>#left03 {
+  height: 100%;
+  width: 30%;
+  background-color: #fcda69;
+
+}
+
+#text3>h1 {
+  font-size: 90px;
+  margin-left: 11%;
+  margin-top: 100px;
+}
+
+#text3>h5 {
+  margin-top: 10%;
+  color: #8873EF;
+  transform: rotate(-20deg);
+  position: absolute;
+  left: 8%;
+  margin-top: -1%;
+}
+
+#right003 {
+
+
+  margin-left: 10%;
+  height: 100%;
+  width: 310%;
+
+}
+
+#text0113 {
+  font-size: 12px;
+  margin-left: 6%;
+
+}
+
+#text0113>h3 {
+  font-size: 25px;
+  margin-left: 1px;
+}
+
+#text0113>h2 {
+  font-size: 20px;
+  margin-left: 2%;
+}
+
+#text0113>h1 {
+  font-size: 28px;
+  margin-left: 2%;
+  margin-top: 8px;
+}
+
+
+
+#page4 {
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+  background-color: whitesmoke;
+}
+
+#project {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 50%;
+  width: 90%;
+  /* background-color: aquamarine;*/
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 5%;
+
+}
+
+.projects {
+  border-top: 2px solid #000;
+  height: 100%;
+  width: 32%;
+  /*background-color: #f80909;*/
+}
+
+#ptext01 {
+
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 20px;
+  height: 30%;
+  width: 100%;
+  /*background-color: #fcda69;*/
+}
+
+#image9 {
+  margin-top: 7%;
+  height: 70%;
+  width: 100%;
+  background-color: palevioletred;
+  background-image: url(https://imgs.search.brave.com/yqkvpYhNlE7UIINtln_Gm7hZjYqAKzFAtAZN9qQ4fEs/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9oYWNr/c3Rlci5pbWdpeC5u/ZXQvdXBsb2Fkcy9j/b3Zlcl9pbWFnZS9m/aWxlLzEzMTE3MC9G/dWxsU2l6ZVJlbmRl/ciUyMDEyLmpwZz9h/dXRvPWNvbXByZXNz/LGZvcm1hdCZ3PTkw/MCZoPTY3NSZmaXQ9/bWlu);
+  background-size: cover;
+}
+
+#image10 {
+  margin-top: 7%;
+  height: 70%;
+  width: 100%;
+  background-color: palevioletred;
+  background-image: url(https://imgs.search.brave.com/Sqii9N6FrAMHOPQwJOzs82v2bwCF0118PFqRbEq5gQA/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9mcmVz/aGRlc2lnbndlYi5j/b20vd3AtY29udGVu/dC91cGxvYWRzL1Vo/b3N0LVNjYWxhYmxl/LWhvc3RpbmctZm9y/LXdlYnNpdGUtdGVt/cGxhdGUtNzAweDQ2/OS5qcGc);
+  background-size: cover;
+}
+
+#image11 {
+  margin-top: 7%;
+  height: 70%;
+  width: 100%;
+  background-color: palevioletred;
+  background-image: url(https://imgs.search.brave.com/r_dbEhLDIfdFfZwFDuh3DGAKKJ6LRr8TdiTUesiLVtw/rs:fit:860:0:0/g:ce/aHR0cHM6Ly93d3cu/ZHVhcnRlLmNvbS93/cC1jb250ZW50L3Vw/bG9hZHMvMjAyMy8w/Mi8xMC1XYXlzLXRv/LWludGVyYWN0LXdp/dGgtYXVkaWVuY2Ut/bWVtYmVycy13aGls/ZS15b3UtcHJlc2Vu/dC5wbmc);
+  background-size: cover;
+}
+.p2{
+  position: relative;
+  top: -40%;
+}
+.p3{
+  position: relative;
+  top: -80%;
+}
+#text99{
+  position: absolute;
+  margin: 50px 20px;
+  left: 4%;
+  top: -80%;
+  height: 20%;
+  width: 30%;
+}
+#text99>h1{
+font-size: 80px;
+
+}
+#text99>h5{
+  color: #8873ef;
+  transform: rotate(-20deg);
+  position: absolute;
+  top: -18%;
+  left: -10%;
+}
+
+
+#page5 {
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+  background-color: #fcda69;
+}
