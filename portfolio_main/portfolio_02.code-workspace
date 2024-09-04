@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "../../ML_tutorials/portfolio_02"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "portfolio_main"
+	}
+}
