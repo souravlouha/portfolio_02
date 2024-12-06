@@ -1,6 +1,17 @@
 # portfolio_01
 #photos
 
+
+![WhatsApp Image 2024-12-06 at 17 13 46_24294739](https://github.com/user-attachments/assets/4f8b248b-9c5a-4452-9777-49a18a1be875)
+
+![WhatsApp Image 2024-12-06 at 17 13 47_e25f8199](https://github.com/user-attachments/assets/92e4b1f6-8940-427b-b116-da58737c6a9e)
+
+![WhatsApp Image 2024-12-06 at 17 13 47_686f9ad7](https://github.com/user-attachments/assets/73a98d47-5a1d-4b46-be24-fe5ad1981d74)
+
+![WhatsApp Image 2024-12-06 at 17 13 48_85ed91c6](https://github.com/user-attachments/assets/5d67c44c-783e-43bb-bafe-511f0cb65bea)
+
+
+
 ![Screenshot (135)](https://github.com/user-attachments/assets/73736200-fe92-47bf-b53b-029be79ad369)
 
 
@@ -28,3 +39,6 @@
 ![Black 02 White Minimalist Circle Wedding Photo Invitation ](https://github.com/souravlouha/portfolio_01/assets/130911872/3a92b4d1-c1b1-44d1-a7d3-cfe35613e2e0)
 ![linkedin_145807](https://github.com/souravlouha/portfolio_01/assets/130911872/a2cbf5e1-7b37-4c70-a042-4e2445ea4031)
 ![github_2111432](https://github.com/souravlouha/portfolio_01/assets/130911872/235888bf-af47-4565-87f4-6bb1d8d95cf6)
+
+
+
